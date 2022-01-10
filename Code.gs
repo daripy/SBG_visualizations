@@ -13,7 +13,7 @@ function onOpen() {
 var targetspreadsheet = SpreadsheetApp.getActiveSpreadsheet(); // Active        spreadsheet of the key file
 var sheet = targetspreadsheet.getSheetByName('chart'); // Change the sheet name 
 var emailSubject = 'test';
-var emails = 'drpync@gmail.com'; // your email ID
+var emails = 'xxxxxxx'; // your email ID
 var charts = sheet.getCharts();
 
 
